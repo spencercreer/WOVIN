@@ -1,0 +1,52 @@
+.quote-nav {
+    float: right;
+    margin: 5px 10px 5px;
+    padding: 5px 15px;
+    border-radius: 25px;
+    border-color: #33C0EB;
+    background-color: #33C0EB;
+}
+
+.sd-navbar {
+    background-color: #141414;
+}
+
+.jumbotron {
+    background-color: #222222;
+    color: white;
+    margin-bottom: 0px !important;
+}
+
+.sd-nav-logo {
+    width: 70px;
+}
+
+.sd-toggler {
+    border-color: #33C0EB;
+}
+
+.sd-head {
+    position: relative;
+}
+
+.sd-logo {
+ width: 50%;
+}
+
+#contact {
+    scroll-margin-top: 143px;
+}
+
+.contact-form {
+    z-index: -1;
+    width: 100%;
+    background-color: #E9ECEF;
+}
+
+.sd-btn {
+    background-color: #33C0EB;
+}
+
+footer {
+    background-color: #141414;
+}
