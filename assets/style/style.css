@@ -25,6 +25,26 @@
     border-color: #33C0EB;
 }
 
+.embed-container { 
+    position: relative;
+    padding-bottom: 315px;
+    height: 0;
+    overflow: hidden;
+    max-width: 99%;
+} 
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute;
+    display:flex;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 99%;
+    height: 99%;
+    max-width: 560px;
+    max-height: 315px;
+}
+
 .sd-head {
     position: relative;
 }
