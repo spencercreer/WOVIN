@@ -1,72 +1,87 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
 .quote-nav {
-    float: right;
-    margin: 5px 10px 5px;
-    padding: 5px 15px;
-    border-radius: 25px;
-    border-color: #33C0EB;
-    background-color: #33C0EB;
+  float: right;
+  margin: 5px 10px 5px;
+  padding: 5px 15px;
+  border-radius: 25px;
+  border-color: #33c0eb;
+  background-color: #33c0eb;
 }
 
 .sd-navbar {
-    background-color: #141414;
+  background-color: #141414;
 }
 
 .jumbotron {
-    background-color: #222222;
-    color: white;
-    margin-bottom: 0px !important;
+  background-color: #222222;
+  color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 0px !important;
+}
+
+.lead {
+  margin-bottom: 0; /* Remove bottom margin from lead paragraphs */
 }
 
 .sd-nav-logo {
-    width: 125px;
+  width: 125px;
 }
 
 .sd-toggler {
-    border-color: #33C0EB;
+  border-color: #33c0eb;
 }
 
-.embed-container { 
-    position: relative;
-    padding-bottom: 315px;
-    height: 0;
-    overflow: hidden;
-    max-width: 99%;
-} 
+.embed-container {
+  position: relative;
+  padding-bottom: 315px;
+  height: 0;
+  overflow: hidden;
+  max-width: 99%;
+}
 
-.embed-container iframe, .embed-container object, .embed-container embed {
-    position: absolute;
-    display:flex;
-    justify-content: center;
-    top: 0;
-    left: 0;
-    width: 99%;
-    height: 99%;
-    max-width: 560px;
-    max-height: 315px;
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 99%;
+  height: 99%;
+  max-width: 560px;
+  max-height: 315px;
 }
 
 .sd-head {
-    position: relative;
+  position: relative;
 }
 
 .sd-logo {
- width: 50%;
+  width: 90%;
 }
 
 #contact {
-    scroll-margin-top: 143px;
+  scroll-margin-top: 143px;
 }
 
 .contact-form {
-    z-index: -1;
-    width: 100%;
-    background-color: #E9ECEF;
+  z-index: -1;
+  width: 100%;
+  background-color: #e9ecef;
 }
 
 .sd-btn {
-    background-color: #33C0EB;
+  background-color: #33c0eb;
 }
 
 footer {
-    background-color: #141414;
+  background-color: #141414;
 }
