@@ -27,6 +27,7 @@ body, html {
 }
 
 .lead {
+  color: white;
   margin-bottom: 0; /* Remove bottom margin from lead paragraphs */
 }
 
